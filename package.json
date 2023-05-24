@@ -4,7 +4,9 @@
   "description": "You need a docker installed for this",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "node publisher.js",
+    "consume": "node consumer.js"
   },
   "keywords": [],
   "author": "",
